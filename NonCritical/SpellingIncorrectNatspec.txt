@@ -1,0 +1,5 @@
+[NC-01] Weight Misspelt in notice tag 
+
+The spelling of Weight has been misspelled, this degrades the quality of the documentation 
+
+Link : https://github.com/code-423n4/2023-05-juicebox/blob/main/juice-buyback/contracts/JBXBuybackDelegate.sol#L32
