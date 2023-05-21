@@ -3,4 +3,4 @@
 Consider storing the constant numbers in state variables instead of caculating them everytime inside fucntions. This increases
 gas cost by a very little margin while deploying the contract but it saves gas in the long run 
 
-Link : 
+Link : https://github.com/code-423n4/2023-05-juicebox/blob/main/juice-buyback/contracts/JBXBuybackDelegate.sol#L150
