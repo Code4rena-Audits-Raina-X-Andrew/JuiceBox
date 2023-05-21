@@ -1,0 +1,6 @@
+# [NC-02]  Floating Pragma Version Used
+
+Contracts should be deployed with the same pragma version, outdated version might introduce bugs that affect the contract system negatively 
+Only use floating pragma when you are using contract libraries or any other code that is meant for the consumption of developers 
+
+Link : https://github.com/code-423n4/2023-05-juicebox/blob/main/juice-buyback/contracts/JBXBuybackDelegate.sol#L2
