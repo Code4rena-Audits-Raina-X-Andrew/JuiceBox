@@ -1,0 +1,7 @@
+# [NC-04] Add events to functions that make important changes and transfers 
+
+Consider adding events to the functions that make important changes to the state of the contract as well as do some 
+important transfers and swaps between the tokens 
+
+Link : https://github.com/code-423n4/2023-05-juicebox/blob/main/juice-buyback/contracts/JBXBuybackDelegate.sol#L183
+https://github.com/code-423n4/2023-05-juicebox/blob/main/juice-buyback/contracts/JBXBuybackDelegate.sol#L144
