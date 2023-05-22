@@ -1,0 +1,11 @@
+#[NC-03] Precision Loss can be minimized by doing all the operations before actually dividing 
+
+Consider changing the if statement from  
+
+if (_tokenCount < _quote - (_quote * _slippage / SLIPPAGE_DENOMINATOR))
+
+to 
+
+ if (_tokenCount < (_quote*(SLIPPAGE_DENOMINATOR -  _slippage)) / SLIPPAGE_DENOMINATOR)
+
+Link: https://github.com/code-423n4/2023-05-juicebox/blob/main/juice-buyback/contracts/JBXBuybackDelegate.sol#L156
